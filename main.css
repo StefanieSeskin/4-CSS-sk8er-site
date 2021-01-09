@@ -123,9 +123,11 @@ nav a {
      width: 240px;
      /* border-right: 10px solid #999; */
      /* background-clip: padding-box; */
-     padding: 0px 10px 0px 10px;
+     padding: 0px 30px 0px 30px;
      /* text-align: left; */
      background: white;
+
+     margin-right: 5px;
      /* color: rgb(71, 70, 70);
      font-size: 12px;
      font-weight: lighter; */
@@ -145,3 +147,20 @@ nav a {
     /* text-align: center; */
  }
 
+h3 {
+    color: rgb(87, 86, 86);
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    line-height: 20px;
+
+}
+
+h6 {
+    color: silver;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+}
