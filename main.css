@@ -46,30 +46,31 @@ nav a {
 
 }
 
-.hero {
-    position: absolute;
-    margin-top: 100px;
-
-}
 
 .hero {
     width: 780px;
     height: 250px;
     border: 10px solid white;
     overflow: hidden;
+    position: absolute;
+    margin-top: 100px;
 }
 
-.hero img {
+.hero .underphoto {
+    position: relative;
     margin: -100px 50px -100px -180px;
     filter: brightness(80%);
     filter: contrast(65%)
+
 }
 
-.overlay {
+.hero .overlay {
     position:absolute;
-    z-index:1;
+    height: 50%;
+    width: 50%;
+    top: -10;
     bottom:0;
-    right:0;
+    right:10;
 
 }
 
