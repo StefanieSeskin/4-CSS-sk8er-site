@@ -23,6 +23,8 @@ body {
     justify-content: center;
 }
 
+/* take out main height and weight before turning in */
+
 nav {
     padding-top: 50px;
     width: 800px;
@@ -30,21 +32,20 @@ nav {
     justify-content: space-between;
 }
 
+.navlink {
+    background: rgb(194, 54, 54);
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-right: 27px;
+    padding-left: 27px;
+
+}
+
 nav a {
     font-size: 14px;
     color: white;
     text-decoration: none;
 }
-
-.navlink {
-    background: rgb(194, 54, 54);
-    padding-top: 8px;
-    padding-bottom: 8px;
-    padding-right: 33px;
-    padding-left: 33px;
-
-}
-
 
 .hero {
     width: 780px;
@@ -65,10 +66,46 @@ nav a {
 
 .hero .overlay {
     position:absolute;
-    height: 50%;
-    width: 50%;
-    top: -10;
+    top: 50px;
     bottom:0;
     right:10;
+
+}
+
+ .textboxes {
+    height: 250px;
+    width: 750px;
+    background-color: black;
+    position: absolute;
+    margin-top: 450px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+ }
+
+.textboxes .item1 {
+    height: 250px;
+    width: 234px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    margin-top: 450px;
+}
+
+.textboxes .item2 {
+    height: 250px;
+    width: 234px;
+    background-color: white;
+    position: absolute;
+    margin-top: 450px;
+
+}
+
+.textboxes .item3 {
+    height: 250px;
+    width: 234px;
+    background-color: white;
+    position: absolute;
+    margin-top: 450px;
 
 }
