@@ -110,7 +110,7 @@ nav a {
  */
 
  .textboxes ul {
-     width: 810px;
+     width: 815px;
      display: flex; 
      justify-content: space-between;
      list-style: none;
@@ -163,4 +163,26 @@ h6 {
     font-size: 12px;
     margin-top: 0.67em;
     margin-bottom: 0.67em;
+}
+
+.center {
+    text-align: center;
+}
+
+.skateboards {
+    width: 810px;
+    height: 250px;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 780px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.skateboards .fit {
+    height: 80%
+
+
 }
