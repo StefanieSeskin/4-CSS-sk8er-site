@@ -10,6 +10,21 @@ body {
 
 }
 
+
+header {
+    width: 1000px;
+    padding-top: 10px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: flex-start;
+    
+}
+
+a {
+    color: white;
+    text-decoration: none;
+    font-size: 10px;
+}
 /* #bkimg {
     background-image: url(images/bg.jpg);
     background-size:cover;
@@ -101,7 +116,6 @@ nav a {
 /* .hero .herobg {
         position: relative;
         margin: -100px 50px -100px -180px;
-
         THIS IS THE GRID THAT SHOULD GO UNDER THE HERO PHOTO - 
         no time left to figure it out how to make it work
 } */
@@ -140,23 +154,19 @@ nav a {
     position: absolute;
     margin-top: 450px;
 }
-
 .textboxes .item2 {
     height: 250px;
     width: 234px;
     background-color: white;
     position: absolute;
     margin-top: 450px;
-
 }
-
 .textboxes .item3 {
     height: 250px;
     width: 234px;
     background-color: white;
     position: absolute;
     margin-top: 450px;
-
 }
  */
 
@@ -172,16 +182,9 @@ nav a {
 
  .textboxes li {
      width: 240px;
-     /* border-right: 10px solid #999; */
-     /* background-clip: padding-box; */
      padding: 0px 30px 0px 30px;
-     /* text-align: left; */
      background: white;
      margin-right: 5px;
-     /* color: rgb(71, 70, 70);
-     font-size: 12px;
-     font-weight: lighter; */
-
  }
 
  span {
@@ -196,15 +199,6 @@ nav a {
     text-decoration: none;
     /* text-align: center in message textbox -- can't figure it out; */
  }
-
- /* .gridphotos {
-    width: 810px;
-    height: 375px;
-    background-color: white;
-    overflow: hidden;
-    position: absolute;
-    margin-top: 760px;
- } */
 
 
 
@@ -234,10 +228,6 @@ nav a {
     grid-row-end: 4;
 }
 
-/* .gallery__item--1 .gallery__img
-    object-fit: cover; 
-    margin-right: 30
-    */
 
 .gallery__item--2 {
     grid-column-start: 3;
@@ -269,7 +259,7 @@ nav a {
     background-color: white;
     overflow: hidden;
     position: absolute;
-    margin-top: 1110px;
+    margin-top: 1180px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -285,7 +275,7 @@ nav a {
     background-color: white;
     overflow: hidden;
     position: absolute;
-    margin-top: 1385px;
+    margin-top: 1450px;
     display: flex;
     flex-direction: columm;
     align-items: center;
@@ -321,7 +311,11 @@ input::placeholder {
     width: 300px;
     align-content: space-around;
     margin-bottom: 10px;
-    border-style: ridge;
+    border-color: silver;
+    border-top-width: 2px;
+    border-right-width: 1px;
+    border-bottom-width: 1px;
+    border-left-width: 2px;
 
 }
 
