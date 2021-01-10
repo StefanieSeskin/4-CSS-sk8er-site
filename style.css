@@ -4,9 +4,51 @@
 }
 
 body {
-    background-image: url(assets/bg2.jpg);
+    background-image: url(images/bg2.jpg);
     background-repeat: no-repeat;
     background-size: cover;
+
+}
+
+/* #bkimg {
+    background-image: url(images/bg.jpg);
+    background-size:cover;
+    filter: brightness(80%);
+    filter: contrast(65%)
+} 
+Watched video and couldn't get this bkimg method to work 
+quickly enough so cheated by 
+changing the background image in photoshop and uploaded new 
+image to images folder.  Planned to come back.  Ran out 
+of time */ 
+
+h3 {
+    color: rgb(87, 86, 86);
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    line-height: 20px;
+
+}
+
+h4 {
+    color: rgb(87, 86, 86);
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+
+h6 {
+    color: silver;
+    font-weight: lighter;
+    font-size: 12px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
 }
 
 .top {
@@ -18,12 +60,12 @@ body {
     width: 810px;
     height: 2000px;
     display: flex;
-    background-color: silver;
     align-items: flex-start;
     justify-content: center;
 }
 
-/* take out main height and weight before turning in */
+/* Probably should have named something other than main Come back
+to this */
 
 nav {
     padding-top: 50px;
@@ -56,6 +98,15 @@ nav a {
     margin-top: 100px;
 }
 
+/* .hero .herobg {
+        position: relative;
+        margin: -100px 50px -100px -180px;
+
+        THIS IS THE GRID THAT SHOULD GO UNDER THE HERO PHOTO - 
+        no time left to figure it out how to make it work
+} */
+
+
 .hero .underphoto {
     position: relative;
     margin: -100px 50px -100px -180px;
@@ -76,7 +127,7 @@ nav a {
     height: 310px;
     width: 810px;
     position: absolute;
-    margin-top: 450px;
+    margin-top: 420px;
     display: flex;
     flex-direction: row;
  }
@@ -143,36 +194,69 @@ nav a {
     color: rgb(194, 54, 54);
     font-weight: bold;     
     text-decoration: none;
-    /* text-align: center; */
+    /* text-align: center in message textbox -- can't figure it out; */
  }
 
-h3 {
-    color: rgb(87, 86, 86);
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    line-height: 20px;
+ /* .gridphotos {
+    width: 810px;
+    height: 375px;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 760px;
+ } */
 
+
+
+.gallery {
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 20px;
+    margin-top: 750px;
+    width: 800px;
+    height: 500px;
+    padding-right: 10px;
+    position: absolute;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    border: 6px solid white;
+    /* object-fit: fill; */
 }
 
-h4 {
-    color: rgb(87, 86, 86);
-    font-weight: normal;
-    font-size: 20px;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
-    line-height: 20px;
-    letter-spacing: 1px;
-
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 3;
+    grid-row-start: 1;
+    grid-row-end: 4;
 }
 
-h6 {
-    color: silver;
-    font-weight: lighter;
-    font-size: 12px;
-    margin-top: 0.67em;
-    margin-bottom: 0.67em;
+/* .gallery__item--1 .gallery__img
+    object-fit: cover; 
+    margin-right: 30
+    */
+
+.gallery__item--2 {
+    grid-column-start: 3;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery__item--3 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 6;
+}
+.gallery__item--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 6;
+
 }
 
 .center {
@@ -185,7 +269,7 @@ h6 {
     background-color: white;
     overflow: hidden;
     position: absolute;
-    margin-top: 780px;
+    margin-top: 1110px;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -201,7 +285,7 @@ h6 {
     background-color: white;
     overflow: hidden;
     position: absolute;
-    margin-top: 1050px;
+    margin-top: 1385px;
     display: flex;
     flex-direction: columm;
     align-items: center;
@@ -220,6 +304,8 @@ h6 {
 
 input::placeholder {
     color: rgb(201, 200, 200);
+
+/* HOW THE HECK DO MAKE THIS TEST ALIGN TO THE TOP? */
 
 }
 

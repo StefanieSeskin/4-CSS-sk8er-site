@@ -4,20 +4,28 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Skater</title>
-    <link href="main.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 
+<!-- A friend helped me with one thing and suddenly, things clicked.
+I figured everything else out myself using google.  Yay!  
+Images and illustrations much nice to work with than
+forms, but I THINK I can re-do the form homework if time.
+The first video provided -- "layout thinking" -- was incredibly helpful.  -->
+    
 </head>
-
 
 <body>
 
+<!-- <div bkimg></div> Didn't work for me and had already done 
+    other method which was using what I know PHOTOSHOP and changing
+    the opacity and contrast of bg.png and creating a bg2.png -->
+
 <div class="top">
     <div class="main">
-        <!-- /* this is the box surrounding the other stuff - transparent background*/ -->  
         <nav>
             <div class="navlink">
                 <a href="">&mdash; &nbsp; SK8T NEWS &nbsp;  &mdash;</a>
-            </div>
+          </div>
 
             <div class="navlink">
                 <a href="">&mdash;  &nbsp; SKATEBOARDERS&nbsp; &mdash;</a>
@@ -34,10 +42,15 @@
         
 
     <div class="hero">
+        <!-- <div class="herobg">
+            <img src="images/grid.png" alt="background" COULD NOT
+            FIGURE OUT HOW TO ALSO GET GRID UNDER "underphoto".  Plan
+            was to come back later but no time>
+        </div> -->
         <div class="underphoto">
-            <img src="assets/top-image.png" height="720px" alt="Photographer">
+            <img src="images/top-image.png" height="720px" alt="Photographer">
          </div>
-        <div class="overlay"><img src="assets/peralta-logo.png" alt="Peralta Logo" width="75%"></div>
+        <div class="overlay"><img src="images/peralta-logo.png" alt="Peralta Logo" width="75%"></div>
     </div>
 
     
@@ -75,29 +88,37 @@
                                 <p class="center"><a href="">[ READ MORE ]</a></p></span>
             </li>        
         </ul>
-        <!-- <div class="box1">WHY OH WHO</div>
-        <div class="box2">why don't i see these boxes</div>
-        <div class="box3">what the heck</div> -->
 
-    <!-- h text go in here - header tags, paragraph, "read more" links*/ --> 
     </div>
 
-    <div class="gridphotos">
-        <!-- /* use grid layout - clueless */ -->
+    <div class="gallery">
+
+        <id class="gallery__item gallery__item--1"><a href=“” target=“_blank”>
+      <img src="images/sk8er-4.png" class="gallery__img" alt=“Lance Mountain”	></a>
+        </id>
+        <id class="gallery__item gallery__item--2">
+        <img src="images/sk8er-3.png" class="gallery__img" alt=“Rodney Mullen”>
+        </id>
+        <id class="gallery__item gallery__item--3">
+          <img src="images/sk8er-2.png" class="gallery__img" alt=“Tommy “Guerrero>
+        </id>
+         <id class="gallery__item gallery__item--4">
+          <img src="images/sk8er-1.png" class="gallery__img" alt=“Steve Caballero”> 
+       </id>
     </div>
 
     <div class="skateboards">
-        <img class="fit" src="assets/sk8-3.png" alt="enjoi board">
-        <img class="fit" src="assets/sk8-4.png" alt="Impact Support board">
-        <img class="fit" src="assets/sk8-5.png" alt="Message Board board">
-        <img class="fit" img src="assets/sk8-6.png" alt="Good Wood board">
-        <img class="fit" img src="assets/sk8-7.png" alt="hungover board">
-        <img class="fit" img src="assets/sk8-8.png" alt="Shecks board">
-        <img class="fit" img src="assets/sk8-9.png" alt="Jesus Fernandez board">
-        <img class="fit" img src="assets/sk8-10.png" alt="Rob Dyrdek board">
-        <img class="fit" img src="assets/sk8-2.png" alt="Elephant board">
-        <img class="fit" img src="assets/sk8-1.png" alt="">
-        <!-- /* need name of last skateboard sk8-1 */ -->
+        <img class="fit" src="images/sk8-3.png" alt="enjoi board">
+        <img class="fit" src="images/sk8-4.png" alt="Impact Support board">
+        <img class="fit" src="images/sk8-5.png" alt="Message Board board">
+        <img class="fit" img src="images/sk8-6.png" alt="Good Wood board">
+        <img class="fit" img src="images/sk8-7.png" alt="hungover board">
+        <img class="fit" img src="images/sk8-8.png" alt="Shecks board">
+        <img class="fit" img src="images/sk8-9.png" alt="Jesus Fernandez board">
+        <img class="fit" img src="images/sk8-10.png" alt="Rob Dyrdek board">
+        <img class="fit" img src="images/sk8-2.png" alt="Elephant board">
+        <img class="fit" img src="images/sk8-1.png" alt="">
+        <!-- /* need name of last skateboard sk8-1 for alt text */ -->
     </div>
 
     <div class="contact">
@@ -115,8 +136,9 @@
                     <input class="field" id="yourmessage" name="yourmessage" placeholder="YOUR MESSAGE" type="textarea">
                     <button class="submit" type="button">SUBMIT</button>
                 </form>
+                <!-- /* Could not figure out how to align placeholder 
+                text for YOUR MESSAGE at the top */ -->
         </div>
-        <!-- /* paragraph and form - use flexbox */ -->
     </div>
 </div>
 </div>
