@@ -126,7 +126,6 @@ nav a {
      padding: 0px 30px 0px 30px;
      /* text-align: left; */
      background: white;
-
      margin-right: 5px;
      /* color: rgb(71, 70, 70);
      font-size: 12px;
@@ -157,6 +156,17 @@ h3 {
 
 }
 
+h4 {
+    color: rgb(87, 86, 86);
+    font-weight: normal;
+    font-size: 20px;
+    margin-top: 0.67em;
+    margin-bottom: 0.67em;
+    line-height: 20px;
+    letter-spacing: 1px;
+
+}
+
 h6 {
     color: silver;
     font-weight: lighter;
@@ -183,6 +193,73 @@ h6 {
 
 .skateboards .fit {
     height: 80%
+}
+
+.contact {
+    width: 750px;
+    height: 275px;
+    background-color: white;
+    overflow: hidden;
+    position: absolute;
+    margin-top: 1050px;
+    display: flex;
+    flex-direction: columm;
+    align-items: center;
+    padding: 0px 30px 0px 30px;
+}
+
+.contact .contacttext {
+    width: 350px;
+    padding: 20px;
+    font-size: 14px;
+    color: gray;
+    line-height: 1.50em;
+    margin-bottom: 80px;
+}
 
 
+input::placeholder {
+    color: rgb(201, 200, 200);
+
+}
+
+.form {
+    width: 350px;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+
+}
+
+.form input {
+    width: 300px;
+    align-content: space-around;
+    margin-bottom: 10px;
+    border-style: ridge;
+
+}
+
+.submit {
+    color: white;
+    background-color: rgb(194, 54, 54);
+    border: 0;
+    line-height: 2.5;
+    padding: 0 20px;
+    text-align: center;
+    width: 175px;
+    margin-left: 135px;
+
+}
+
+#firstname {
+    height: 20px;
+
+}
+
+#email {
+    height: 20px;
+}
+
+#yourmessage {
+    height: 100px;
 }
