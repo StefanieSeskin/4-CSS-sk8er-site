@@ -37,6 +37,15 @@ changing the background image in photoshop and uploaded new
 image to images folder.  Planned to come back.  Ran out 
 of time */ 
 
+h1 {
+    font-size: 38px;
+    text-align: center;
+    color: white;
+    line-height:95%;
+   
+}
+
+
 h3 {
     color: rgb(87, 86, 86);
     font-weight: normal;
@@ -248,6 +257,39 @@ nav a {
     grid-row-end: 6;
 
 }
+
+
+.text--1 {
+    grid-column-start: 1;
+    grid-column-end: 1;
+    grid-row-start: 2;
+    grid-row-end: 2;
+
+}
+
+.text--2 {
+    grid-column-start: 3;
+    grid-column-end: 3;
+    grid-row-start: 2;
+    grid-row-end: 2;
+} 
+
+.text--3 {
+    grid-column-start: 6;
+    grid-column-end: 6;
+    grid-row-start: 2;
+    grid-row-end: 3;
+} 
+
+.text--4 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 4;
+    grid-row-end: 5;
+} 
+
+
+
 
 .center {
     text-align: center;
